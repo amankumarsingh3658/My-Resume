@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 height: height * 0.02,
               ),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 10),
+                padding: const EdgeInsets.symmetric(horizontal: 3),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -83,7 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           size: 30,
                         ),
                         SizedBox(
-                          width: width * 0.05,
+                          width: width * 0.04,
                         ),
                         Text(
                           "Ajay Kumar Garg Engineering College,\nGhaziabad",
