@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -162,7 +164,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text(
                       "Results-driven B.Tech CS student with a strong foundation in computer science, programming, and software development. Proficient in SQL, Flutter, and C programming. Skilled problem solver and collaborator with excellent communication and teamwork abilities. Committed to staying current with industry trends and eager to contribute technical expertise to drive organizational success."),
                   SizedBox(
-                    height: 80,
+                    height: 110,
                   ),
                   Text(
                     "Created by Aman Kumar Singh",
